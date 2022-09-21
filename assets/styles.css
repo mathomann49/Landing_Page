@@ -23,19 +23,22 @@ header {
     top: 0;
 }
 img {
-    max-width: 150%;
-    max-height: 150%;
+    
+    max-height: 100%;
 
 }
 .logo {
-    height: 200px;
-    width: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
 }
 p {
+    font-size: em;
+    font-style:normal;   
+}
+p > span {
     font-size: 2em;
-    font-style: italic;
-
+    font-style: oblique;
+    font-weight: 800;
 }
 .navbar,
 .navbar-list {
@@ -49,4 +52,69 @@ p {
 }
 .navbar-list {
     gap: 30px;
+}
+.navbar-list a {
+color: rgb(75, 68, 62);
+}
+ 
+
+
+
+main {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color:darkgreen;
+
+}
+.hero-info p {
+    font-size: 16px;
+    width: 70%;
+    color: chartreuse;
+}
+.hero-info p > span {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+}
+
+.hero-info a {
+    color: black;
+    background-color: crimson;
+    width: 200px;
+    padding: 8px 14px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-image{
+    border-radius: 10px;
 }
