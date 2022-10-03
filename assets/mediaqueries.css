@@ -1,0 +1,81 @@
+@media (max-width: 992px) {
+
+    .p2 {
+        display: none;
+    }
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90;
+        flex-direction: column;
+        background: rgb(21, 20, 20);
+        border: 2px solid salmon;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+    .navbar-list a {
+        color: white;
+        }
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }    
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
+    }
+
+    .hero-info .contacto {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero-imge {
+        width: 90%;
+        max-width: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+    #info {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .brief .we are {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .brief p .we are p {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    #contact img {
+        width: 50%;
+        border-radius: 20px;
+    }
+}

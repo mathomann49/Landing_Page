@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Vianda lp</title>
     <link rel="stylesheet" href="./assets/styles.css"/>
+    <link rel="stylesheet" href="./assets/mediaqueries.css"/>
     
 </head>
 <body>
     <header>
         <img src="./assets/img/logo2.png" alt="logo de top vianda" class="logo"/>
         <p><span>Top-Vianda</span></p>
-        <p>... porque somos lo que comemos</p>
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/img/toggle-menu.png" class="menu-icon">
+        </label>
+        <input type="checkbox" id="menu-toggle">
+        <p class="p2">... porque somos lo que comemos</p>
         <nav class="navbar">
             <ul class="navbar-list">
                 <li><a href="#"><b>Inicio</b></a></li>
@@ -34,7 +39,59 @@
             <img src="./assets/img/comida.png" alt="imagen de viandas" class="hero-image"/>
             
         </section>
+        <section id="info">
+          <div class="we are">
+            <h2>¿Quienes somos?</h2>
+            <p>Somos una empresa con experiencia en viandas empresariales y nuestra filosofía se basa en la busqueda constante de nuestra mejor versión. Por eso, y con la asesoría de prestigiosos profesionales en el rubro, ofrecemos nuestra especialidad para quienes también procuran su mejor versión. </p>
+          </div>
+          <div class="brief">
+            <h2>¿Cómo operamos?</h2>
+            <p>Los planes de viandas están armados en función de un perfil nutricional que podrás completar vía telefónica 
+              o en forma on-line. Las viandas vienen selladas para su correcta conservación y se entregan a domicilio dos veces por semana o podes
+              optar por la modalidad "Take away", previamente pautada.
+              Si bien siempre podes elegir un plato ocasional a tu gusto, nuestro servicio te da la posibilidad de un menú semanal clasificado en tres posibles perfiles nutricionales:</p>
+          </div>
+          <div class="info-card-container">
+          <div class="info-card">
+            <img src="./assets/img/logo2.png" alt="logo de top vianda" class="logo"/>
+            <h3>"Calories"</h3>
+            <P>Para dietas hiper o hipocalóricas, si estás en tratamiento con algún nutricionista, o isocalórica, si sos un deportista, cultor del modelo corporal</P>
+            <a href="#">Conocer</a>
+          </div>
+          <div class="info-card">
+            <img src="./assets/img/logo2.png" alt="logo de top vianda" class="logo"/>
+            <h3>"Veggie"</h3>
+            <P>La cultura Vegana tiene cada vez mas adeptos alrededor del mundo y aquí tendrás esa opción, respetando la filosofía pero sin descuidar la nutrición</P>
+            <a href="#">Conocer</a>
+          </div>
+          <div class="info-card"><img src="./assets/img/logo2.png" alt="logo de top vianda" class="logo"/>
+            <h3>"Libre"</h3>
+            <P>Esta opción te ofrece los clásicos platos de la Cocina Argentina, poniendo el acento en el sabor, maximizando el balance entre proteinas, hidratos y grasas </P>
+            <a href="#">Conocer</a></div> 
+          </div>
+        </section>
+        <section id="contact">
+          <div class="contacto">
+           <h2>Contactanos</h2>
+            <h3>Av. 13 Nro. 549 esquina 43</h3>
+            <h3>La Plata - Pcia. de Buenos Aires - Argentina</h3>
+            <h3>Teléfono: 221 - 4354023</h3>
+            <h3>Mail: topvianda@gmail.com</h3>
+            <div class="social-media">
+              <a href="#"><img src="./assets/img/instagram-logo.png" alt="instagram-logo" class="instagram-logo"/></a>
+              <a href="#"><img src="./assets/img/facebook-logo.png" alt="facebook-logo" class="facebook-logo"/></a>
+              <a href="#"><img src="./assets/img/whatsapp-logo.png" alt="whatsapp-logo" class="whatsapp-logo"/></a>
+            </div>
+          </div>
+          <img src="./assets/img/direccion.png" alt="direccion" class="mapa"/>
+        </section>
     </main>
-
+<footer>
+  <div class="footer-things">
+    <img src="./assets/img/logo2.png" alt="logo" class="footer-img"/>
+    <p>Top-Vianda</p>
+    <p>copyright - 2022</p>
+  </div>
+</footer>
 </body>
 </html>
